@@ -1,0 +1,9 @@
+version: '3'
+services:
+  webserver:
+    build:
+      dockerfile: .
+      context: ./
+      args:
+        GDRIVE_ACCESS_KEY_ID: ${GDRIVE_ACCESS_KEY_ID} # from .env
+        GDRIVE_SECRET_ACCESS_KEY: ${GDRIVE_SECRET_ACCESS_KEY} #from .env

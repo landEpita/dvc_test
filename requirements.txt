@@ -1,0 +1,10 @@
+numpy==1.19.5
+sklearn
+google-api-python-client==1.7.9
+google-auth-httplib2==0.0.3
+google-auth-oauthlib==0.4.0
+mlflow==1.15.0
+zipfile38==0.0.3
+PyYAML==5.4.1
+atosflow
+opencv-python
